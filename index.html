@@ -1,43 +1,80 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drake Portfolio</title>
+    <title>Drake Flood</title>
+    <meta name="description" content="Drake Flood digital portfolio. A place to explore my most recent forays into design, writing, and computation">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+    
+    <div class="splitscreen">
 
-    <div class="container">
-        
-        <header>
-            <img src="Images/Garage.jpg" alt="Image of Garage on Main Street">
-        </header>
+        <aside class="right">
+            <script>
+                function getRandomInt(min, max) {
+                min = Math.ceil(min);
+                max = Math.floor(max);
+                return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
+                }
+                document.write('<img src="images/' + getRandomInt(1, 9) + '.jpg">')
+            </script>
+        </aside>
 
-        <nav>
-            <a href="#">Design</a>
-            <a href="#">Writing</a>
-            <a href="#">About</a>
-            <a href="mailto:flood.drake@gmail.com?Subject=Contact">Contact</a>
+        <nav class="left">
+            <h1>Drake Flood</h1>
+            <p>
+                <a href="#">Work</a> <br>
+                <a href="#">Writing</a> <br>
+                <a href="mailto:flood.drake@gmail.com?Subject=Introduction">Contact</a> <br>
+            </p>
         </nav>
 
-        <main>
-            <h1>Drake Flood Portfolio</h1>
-            <p>Welcome to my digital portfolio</p>
-            <a href="https://www.instagram.com/drakeflood/" target="_blank">Follow Me on Instagram</a>
-        </main>
-
-        <section class="video">
-            
-            <iframe src="https://player.vimeo.com/video/484646778" width="640" height="313" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-        </section>
-
-        <footer>
-            <p>UH College of Architecture and Design</p>
-        </footer>
     </div>
-
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drake Flood</title>
+    <meta name="description" content="Drake Flood digital portfolio. A place to explore my most recent forays into design, writing, and computation">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <div class="splitscreen">
+
+        <aside class="right">
+            <script>
+                function getRandomInt(min, max) {
+                min = Math.ceil(min);
+                max = Math.floor(max);
+                return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
+                }
+                document.write('<img src="images/' + getRandomInt(1, 9) + '.jpg">')
+            </script>
+        </aside>
+
+        <nav class="left">
+            <h1>Drake Flood</h1>
+            <p>
+                <a href="#">Work</a> <br>
+                <a href="#">Writing</a> <br>
+                <a href="mailto:flood.drake@gmail.com?Subject=Introduction">Contact</a> <br>
+            </p>
+        </nav>
+
+    </div>
+</body>
+>>>>>>> ce5c02f1cd38aab00d88047bd72ffaea7370d48e
 </html>
