@@ -35,8 +35,7 @@ nav a {
 }
 
 br {
-    display: block; /* makes it have a width */
-    content: ""; /* clears default height */
-    margin-top: 25px; /* change this to whatever height you want it */
->>>>>>> ce5c02f1cd38aab00d88047bd72ffaea7370d48e
+    display: block;
+    content: "";
+    margin-top: 25px;
 }
