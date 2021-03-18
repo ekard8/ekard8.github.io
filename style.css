@@ -3,7 +3,7 @@ html {
 }
 
 img {
-    width: 400px;
+    width: 250px;
     height: auto;
 }
 
@@ -15,16 +15,6 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-align: left;
-}
-
-.splitscreen {
-    display:flex;
-}
-.splitscreen .left {
-    flex: 1;
-}
-.splitscreen .right {
-    flex: .4;
 }
 
 nav a {
