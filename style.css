@@ -1,31 +1,29 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
-}
 a {
     text-decoration: none;
     color: black;
 }
+
 h1{
     font-family: 'Chango', cursive;
     font-size: 3rem;
-    padding-left: 20px;
 }
+
 p {
-    padding-left: 20px;
-    font-size: 1.75rem;
-    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 55px;
 }
 
 header {
     border-bottom: 3px dotted black;
 }
+
 nav {
     border-bottom: 3px dotted black;
 }
 
-nav :hover {
+nav p:hover {
     font-size: 5rem;
-    background-color: rgba(0, 83, 0, 0.125);
-    transition-duration: 2s;
+    background-color: rgba(0, 70, 0, 0.25);
+    transition-duration: 1s;
 }
