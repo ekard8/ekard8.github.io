@@ -25,7 +25,6 @@ p {
     font-size: 1.5rem;
     line-height: 48px;
     padding-left: 20px;
-    margin-right: 20px;
 }
 
 h2 {
@@ -53,30 +52,27 @@ nav p:hover {
 }
 
 main {
-    width: 950px;
+    width: 1500px;
     margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 
 aside {
-    margin-right: 20px;
     text-indent: 50px;
 }
- .plug a {
+ aside a {
     text-decoration: underline;
  }
 
- .organization p {
+ .subwrap p {
     margin-left:  100px;
  }
 
- .organization p:hover {
+ .subwrap p:hover {
      text-decoration: underline;
  }
 
- .organization {
- }
  .work {
      margin-left: 800px;
  }
@@ -95,4 +91,9 @@ aside {
      margin-left: 20px;
      margin-top: 50px;
      font-size: 3rem;
+     font-weight: 700;
+ }
+
+ .wrapper {
+     display: flex;
  }
