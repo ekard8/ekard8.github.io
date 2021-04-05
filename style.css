@@ -1,7 +1,6 @@
-html {
-}
+
 body {
-    zoom: 50%;
+    zoom: 60%;
     height: 100%;
     width: 100%;
 }
@@ -57,7 +56,7 @@ main {
 }
 
 aside {
-    text-indent: 50px;
+    max-width: 45%;
 }
  aside a {
     text-decoration: underline;
@@ -72,7 +71,7 @@ aside {
  }
 
  .work {
-     margin-left: 800px;
+     margin-right: 50px;
  }
 
  img {
@@ -88,4 +87,7 @@ aside {
 
  .wrapper {
      display: flex;
+ }
+ .organization { 
+     max-width: 45%;
  }
