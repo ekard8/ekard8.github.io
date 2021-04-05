@@ -1,7 +1,4 @@
 html {
-    height: 100vh;
-    width: 100vh;
-    max-width: 1800px;
 }
 body {
     zoom: 50%;
@@ -53,7 +50,7 @@ nav p:hover {
 }
 
 main {
-    width: 1500px;
+    width: 60%;
     margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -77,13 +74,7 @@ aside {
  .work {
      margin-left: 800px;
  }
- .multiimage {
-     margin-top: 50px;
-     display: flex;
-     justify-content: space-between;
-     max-width: 800px;
-     height: 600px;
- }
+
  img {
      object-fit: contain;
  }
