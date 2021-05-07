@@ -91,3 +91,7 @@ aside {
  .organization { 
      max-width: 45%;
  }
+
+ .gif {
+     float: right;
+ }
