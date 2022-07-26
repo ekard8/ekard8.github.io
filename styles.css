@@ -10,7 +10,7 @@ h1{
 .slide {
   width: 100vw;
   height: 100vh;
-  padding-bottom: 35px;
+  padding-bottom: 85px;
 }
 .wrapper {
   display: flex;
@@ -25,7 +25,7 @@ h1{
 }
 .outer-wrapper {
   width: 100vh;
-  height: 95vw;
+  height: 99vw;
   transform: rotate(-90deg) translateX(-100vh);
   transform-origin: top left;
   overflow-y: scroll;
