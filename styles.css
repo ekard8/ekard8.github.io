@@ -1,6 +1,6 @@
 body {
   margin: 10px;
-  zoom: .90;
+  zoom: .95;
   padding: 0;
 }
 h1{
@@ -24,8 +24,8 @@ h1{
   width: 8000vw;
 }
 .outer-wrapper {
-  width: 100vh;
-  height: 45vw;
+  width: 95vh;
+  height: 99vw;
   transform: rotate(-90deg) translateX(-100vh);
   transform-origin: top left;
   overflow-y: scroll;
