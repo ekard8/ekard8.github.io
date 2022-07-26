@@ -8,6 +8,12 @@ h1{
   font-weight: lighter;
   overflow-x: hidden;
 }
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
 .slide {
   width: 100vw;
   height: 100vh;
@@ -33,11 +39,6 @@ h1{
   position: absolute;
   scrollbar-width: none;
   -ms-overflow-style: none;
-}
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
 }
 ::-webkit-scrollbar {
   display:none;
