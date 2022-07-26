@@ -24,7 +24,7 @@ h1{
 }
 .outer-wrapper {
   width: 100vh;
-  height: 95vw;
+  height: 45vw;
   transform: rotate(-90deg) translateX(-100vh);
   transform-origin: top left;
   overflow-y: scroll;
