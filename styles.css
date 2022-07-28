@@ -4,8 +4,21 @@ body {
 }
 h1{
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+  font-weight: 100;
   overflow-x: hidden;
+  font-size: 150%;
+}
+a{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 30px;
+  color: black;
+  font-size: 125%;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: green;
 }
 .slide {
   width: 100vw;
