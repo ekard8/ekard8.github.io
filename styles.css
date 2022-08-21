@@ -54,3 +54,40 @@ p{
 ::-webkit-scrollbar {
   display:none;
 }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 130px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 18px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 99%;
+
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
