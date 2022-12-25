@@ -32,13 +32,13 @@ p{
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 10000vw;
+  width: 14000vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
 .one {
   background: white;
-  width: 9000vw;
+  width: 14000vw;
 }
 .outer-wrapper {
   width: 100vh;
